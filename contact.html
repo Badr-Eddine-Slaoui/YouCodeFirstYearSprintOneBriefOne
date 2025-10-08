@@ -38,29 +38,41 @@ body {font-family: "Lato", sans-serif}
 
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+  <div id="contact">
+    <h2>CONTACT</h2>
+    <p class="contact-text"><i>Fan? Drop a note!</i></p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="contact-icon fa fa-map-marker"></i>
+          <p>Chicago, US</p>
+        </div>
+        <div class="contact-item">
+          <i class="contact-icon fa fa-phone"></i>
+          <p>Phone: +00 151515</p>
+        </div>
+        <div class="contact-item">
+          <i class="contact-icon fa fa-envelope"></i>
+          <p>Email: mail@mail.com</p>
+        </div>
       </div>
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <form class="contact-form">
+          <div>
+            <div class="contact-form-row">
+              <label for="name">Name:</label>
+              <input type="text" placeholder="Name" required name="Name">
             </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            <div class="contact-form-row">
+              <label for="email">Email:</label>
+              <input type="email" placeholder="Email" required name="Email">
             </div>
           </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <div class="contact-form-row">
+            <label for="message">Message:</label>
+            <textarea name="Message" id="message" placeholder="Message"></textarea>
+          </div>
+          <button type="submit">SEND</button>
         </form>
-      </div>
     </div>
   </div>
   
