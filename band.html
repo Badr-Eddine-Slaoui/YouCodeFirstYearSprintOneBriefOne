@@ -8,8 +8,9 @@
 <meta name="title" content="Band">
 <meta name="description" content="Learn more about our band and our members">
 <meta name="keywords" content="Music, Band, Tour">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/brand.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {font-family: "Lato", sans-serif}
@@ -19,45 +20,48 @@ body {font-family: "Lato", sans-serif}
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="./band.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-    <a href="./tour.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-    <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+<div class="navbar">
+  <div class="logo">
+    <img src="/w3images/logo.webp" alt="Brand Logo">
+  </div>
+  <div class="links">
+    <a class="link-item" href="./index.html">HOME</a>
+    <a class="link-item active" href="./band.html">BAND</a>
+    <a class="link-item" href="./tour.html">TOUR</a>
+    <a class="link-item" href="./contact.html">CONTACT</a>
   </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="./band.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="./tour.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-</div>  
-
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div >
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">THE BAND</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+  <div id="band">
+    <h2>Nirvana</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p><i>We love music!</i></p>
+        <p>
+          Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence rock culture.
+        </p>
       </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <div class="band-image">
+        <img src="./w3images/BandImage.jpg" alt="Nirvana Band Image">
       </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+    </div>
+    <h2>Members</h2>
+    <div class="band-members">
+      <div class="member">
+        <p>Kurt Cobain</p>
+        <img src="/w3images/KurtCobain.webp" alt="Kurt Cobain">
+      </div>
+      <div class="member">
+        <p>Dave Grohl</p>
+        <img src="/w3images/DaveGrohl.webp" alt="Dave Grohl">
+      </div>
+      <div class="member">
+        <p>Krist Novoselic</p>
+        <img src="/w3images/KristNovoselic.webp" alt="Krist Novoselic">
       </div>
     </div>
   </div>
@@ -66,45 +70,20 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img class="map" src="/w3images/map.jpg">
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<footer>
+  <div class="social-media">
+    <i class="icon fa fa-facebook-official"></i>
+    <i class="icon fa fa-instagram"></i>
+    <i class="icon fa fa-snapchat"></i>
+    <i class="icon fa fa-pinterest-p"></i>
+    <i class="icon fa fa-twitter"></i>
+    <i class="icon fa fa-linkedin"></i>
+  </div>
+  <p>Powered by Badr Eddine Slaoui</a></p>
 </footer>
-
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 </html>

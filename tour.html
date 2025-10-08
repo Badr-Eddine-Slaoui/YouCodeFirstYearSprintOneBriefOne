@@ -8,28 +8,25 @@
 <meta name="title" content="Tour">
 <meta name="description" content="Learn more about our tour">
 <meta name="keywords" content="Music, Band, Tour">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./style/tour.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="./band.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-    <a href="./tour.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-    <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+<div class="navbar">
+  <div class="logo">
+    <img src="/w3images/logo.webp" alt="Brand Logo">
   </div>
-</div>
-
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="./band.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="./tour.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="./contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <div class="links">
+    <a class="link-item" href="./index.html">HOME</a>
+    <a class="link-item" href="./band.html">BAND</a>
+    <a class="link-item active" href="./tour.html">TOUR</a>
+    <a class="link-item" href="./contact.html">CONTACT</a>
+  </div>
 </div>
 
 <!-- Page content -->
@@ -103,54 +100,20 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img class="map" src="/w3images/map.jpg">
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<footer>
+  <div class="social-media">
+    <i class="icon fa fa-facebook-official"></i>
+    <i class="icon fa fa-instagram"></i>
+    <i class="icon fa fa-snapchat"></i>
+    <i class="icon fa fa-pinterest-p"></i>
+    <i class="icon fa fa-twitter"></i>
+    <i class="icon fa fa-linkedin"></i>
+  </div>
+  <p>Powered by Badr Eddine Slaoui</a></p>
 </footer>
-
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 </html>

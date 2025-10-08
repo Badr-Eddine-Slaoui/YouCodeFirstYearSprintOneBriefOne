@@ -1,0 +1,75 @@
+#band {
+    margin-top: 8rem;
+}
+
+#band h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFEA02;
+}
+
+#band .about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh;
+    gap: 2rem;
+    margin: 4rem 2rem;
+    height: 50vh;
+}
+
+#band .about-container .about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 2rem;
+}
+
+#band .about-container .about-text p:first-child{
+    margin-bottom: 2rem;
+}
+
+#band .about-container .band-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#band .about-container .band-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#band .band-members{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem 2rem;
+
+}
+
+#band .band-members .member{
+    height: 100%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+#band .band-members .member:hover{
+    transform: scale(1.1);
+}
+
+#band .band-members .member p{
+    margin-block: 2rem;
+}
+
+#band .band-members .member img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
