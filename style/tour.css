@@ -1,0 +1,191 @@
+#tour {
+    margin-top: 8rem;
+}
+
+#tour .content h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFEA02;
+}
+
+#tour .content .info{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#tour .content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+#tour .content ul li{
+    list-style: none;
+    cursor: pointer;
+    color: #FFEA02;
+}
+
+#tour .content ul li span{
+    color: red;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+#tour .content ul li:last-child span{
+    color: #fff;
+}
+
+#tour .content ul li:hover{
+    text-decoration: underline;
+}
+
+#tour .content .tours-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#tour .content .tours-cards .tour-card{
+    width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+#tour .content .tours-cards .tour-card .tour-card-text p{
+    margin-bottom: .6rem;
+}
+
+#tour .content .tours-cards .tour-card .tour-card-text p:nth-child(2){
+    color: #FFEA02;
+}
+
+#tour .content .tours-cards .tour-card .tour-card-text button{
+    background-color: #FFEA02;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: #fff 1px solid;
+    color: #000;
+    font-weight: bold;
+}
+
+#tour .content .tours-cards .tour-card .tour-card-text button:hover{
+    background-color: #000;
+    border: #fff 1px solid;
+    color: #FFEA02;
+}
+
+#ticketModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+#ticketModal .ticket-modal-content {
+    position: relative;
+    margin: 15% auto;
+    padding: 4rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+#ticketModal .ticket-modal-content h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#ticketModal .ticket-modal-content h2 i{
+    color: #FFEA02;
+    margin-right: 0.5rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-close{
+    cursor: pointer;
+    color: rgb(222, 2, 2);
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .8rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row:has(button) {
+    justify-content: center;
+    gap: 1rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row label{
+    color: #FFEA02;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row input {
+    width: 50%;
+    border: #fff 1px solid;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form button{
+    background-color: #FFEA02;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: #fff 1px solid;
+    color: #000;
+    font-weight: bold;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-form button:hover{
+    background-color: #000;
+    border: #fff 1px solid;
+    color: #FFEA02;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#ticketModal .ticket-modal-content .ticket-modal-footer a{
+    color: rgb(67, 67, 228);
+}
+
+
