@@ -88,3 +88,59 @@
 }
 
 
+@media  screen and (max-width: 320px) {
+    #contact{
+        margin-top: 4rem;
+    }
+
+    #contact h2{
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact .contact-text{
+        font-size: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    #contact .contact-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+        gap: 2rem;
+        border: #FFEA02 1px solid;
+        border-radius: 1rem;
+        padding: 1.5rem;
+    }
+
+    #contact .contact-container .contact-info{
+        width: 100%;
+        gap: 0.6rem;
+        font-size: 0.4rem;
+    }
+
+    #contact .contact-container .contact-form{
+        width: 100%;
+        gap: 0.6rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row{
+        gap: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row label{
+        font-size: 0.4rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row input, 
+    #contact .contact-container .contact-form .contact-form-row textarea,
+    #contact .contact-container .contact-form button{
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+        font-size: 0.4rem;
+    }
+}

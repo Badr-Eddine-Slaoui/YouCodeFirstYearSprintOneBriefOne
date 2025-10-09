@@ -14,3 +14,30 @@
     margin-block: 1rem;
     color: #FFEA02;
 }
+
+@media screen and (max-width: 320px) {
+    .mySlides{
+        width: 100%;
+    }
+
+    .mySlides img{
+        width: 100%;
+    }
+
+    .mySlides .text{
+        margin-left: .6rem;
+    }
+
+    .mySlides .text h3{
+        margin-block: 0.5rem;
+        font-size: 0.5rem;
+    }
+
+    .mySlides .text p{
+        font-size: 0.4rem;
+    }
+
+    .content{
+        margin-top: 4rem;
+    }
+}

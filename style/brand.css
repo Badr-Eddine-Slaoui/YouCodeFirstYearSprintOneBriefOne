@@ -73,3 +73,55 @@
     border-radius: 50%;
 }
 
+@media  screen and (max-width: 320px) {
+    #band{
+        margin-top: 4rem;
+    }
+
+    #band h2{
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    #band .about-container{
+        grid-template-rows: 30vh;
+        gap: 1rem;
+        margin: 1rem;
+        height: 30vh;
+    }
+
+    #band .about-container .about-text{
+        padding: 0;
+    }
+
+    #band .about-container .about-text p{
+        font-size: 0.4rem;
+    }
+
+    #band .about-container .about-text p:first-child{
+        margin-bottom: 1rem;
+    }
+    
+    #band .about-container .band-image img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #band .band-members{
+        height: 15vh;
+        gap: 2rem;
+        margin: 2rem 1rem;
+    }
+
+
+    #band .band-members .member img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #band .band-members .member p{
+        margin-block: 1rem;
+        font-size: 0.4rem;
+    }
+}
+

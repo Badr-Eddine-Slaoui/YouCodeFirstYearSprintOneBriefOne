@@ -84,3 +84,40 @@ footer p{
     margin-top: 2rem;
     text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        padding: 1rem;
+        height: 4rem;
+    }
+
+    .navbar .links{
+        width: 10rem;
+    }
+
+    .navbar .links a{
+        font-size: 0.4rem;
+    }
+
+    .navbar .logo{
+        width: 2rem;
+        height: 1.5rem;
+    }
+
+    .map{
+        height: 30vh;
+    }
+
+    footer{
+        padding-block: 2rem;
+    }
+
+    footer .icon{
+        margin-inline: .5rem;
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 0.4rem;
+    }
+}

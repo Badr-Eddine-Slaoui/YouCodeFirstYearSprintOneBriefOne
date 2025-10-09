@@ -188,4 +188,100 @@
     color: rgb(67, 67, 228);
 }
 
+@media  screen and (max-width: 320px) {
+    #tour{
+        margin-top: 4rem;
+    }
+
+    #tour .content h2{
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    #tour .content .info{
+        font-size: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    #tour .content .tours-cards{
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        margin: 1rem;
+    }
+
+    #tour .content .tours-cards .tour-card{
+        padding: 0;
+    }
+
+    #tour .content .tours-cards .tour-card .tour-card-text{
+        padding: 0;
+    }
+
+    #tour .content .tours-cards .tour-card .tour-card-text p{
+        font-size: 0.4rem;
+    }
+
+    #tour .content .tours-cards .tour-card .tour-card-text p:first-child{
+        margin-bottom: 1rem;
+    }
+    
+    #tour .content .tours-cards .tour-card .tour-card-text button{
+        font-size: 0.4rem;
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+    }
+
+    #tour .content .tours-cards .tour-card img{
+        width: 100%;
+    }
+
+    #tour .content .dates li{
+        font-size: 0.4rem;
+    }
+
+    #tour .content .dates li span{
+        font-size: 0.4rem;
+    }
+
+    #ticketModal .ticket-modal-content{
+        width: 80%;
+    }
+
+    #ticketModal .ticket-modal-content h2{
+        font-size: 0.6rem;
+    }
+
+    #ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row{
+        display: block;
+        width: 100%;
+        margin-bottom: .4rem;
+    }
+
+    #ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row label{
+        display: block;
+        margin-bottom: .5rem;
+        font-size: 0.5rem;
+    }
+
+    #ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row input{
+        width: 100%;
+        font-size: 0.4rem;
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+    }
+
+    #ticketModal .ticket-modal-content .ticket-modal-form .ticket-modal-row button{
+        width: 100%;
+        font-size: 0.4rem;
+        padding: 0.3rem;
+        border-radius: 0.3rem;
+        margin-bottom: .5rem;
+    }
+
+    #ticketModal .ticket-modal-content .ticket-modal-footer{
+        font-size: 0.4rem;
+        margin-top: 0;
+    }
+}
+
 
