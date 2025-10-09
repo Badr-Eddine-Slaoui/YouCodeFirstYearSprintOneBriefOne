@@ -191,3 +191,55 @@
         font-size: 0.6rem;
     }
 }
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+    #contact{
+        margin-top: 5rem;
+    }
+
+    #contact h2{
+        font-size: 0.8rem;
+        margin-bottom: 1.4rem;
+    }
+
+    #contact .contact-text{
+        font-size: 0.7rem;
+        margin-bottom: .4rem;
+    }
+
+    #contact .contact-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 1.4rem auto;
+        padding: 2rem;
+    }
+
+    #contact .contact-container .contact-info{
+        width: 100%;
+        gap: 1.2rem;
+        font-size: 0.7rem;
+    }
+
+    #contact .contact-container .contact-form{
+        width: 100%;
+        gap: 1.2rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row{
+        gap: 1.2rem;
+        margin-bottom: 1.4rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row label{
+        font-size: 0.7rem;
+    }
+
+    #contact .contact-container .contact-form .contact-form-row input, 
+    #contact .contact-container .contact-form .contact-form-row textarea,
+    #contact .contact-container .contact-form button{
+        padding: 0.7rem;
+        border-radius: 0.8rem;
+        font-size: 0.7rem;
+    }
+}

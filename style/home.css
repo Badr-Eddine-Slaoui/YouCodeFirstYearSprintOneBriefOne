@@ -46,7 +46,7 @@
     .content{
         margin-top: 4rem;
     }
-    
+
     .mySlides{
         width: 100%;
     }
@@ -66,5 +66,32 @@
 
     .mySlides .text p{
         font-size: 0.6rem;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+    .content{
+        margin-top: 5rem;
+    }
+    
+    .mySlides{
+        width: 100%;
+    }
+
+    .mySlides img{
+        width: 100%;
+    }
+
+    .mySlides .text{
+        margin-left: .8rem;
+    }
+
+    .mySlides .text h3{
+        margin-block: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .mySlides .text p{
+        font-size: 0.7rem;
     }
 }

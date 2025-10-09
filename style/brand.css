@@ -176,3 +176,56 @@
         font-size: 0.6rem;
     }
 }
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+    #band{
+        margin-top: 5rem;
+    }
+
+    #band h2{
+        font-size: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+
+    #band .about-container{
+        grid-template-rows: 40vh;
+        gap: 1rem;
+        margin: 1rem;
+        height: 40vh;
+    }
+
+    #band .about-container .about-text{
+        padding: 0.2rem;
+    }
+
+    #band .about-container .about-text p{
+        font-size: 0.5rem;
+    }
+
+    #band .about-container .about-text p:first-child{
+        margin-bottom: 1.5rem;
+    }
+    
+    #band .about-container .band-image img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #band .band-members{
+        height: 25vh;
+        gap: 2.2rem;
+        margin: 2.2rem 1.2rem;
+    }
+
+
+    #band .band-members .member img{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    #band .band-members .member p{
+        margin-block: 1.2rem;
+        font-size: 0.7rem;
+    }
+}
+
