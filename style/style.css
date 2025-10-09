@@ -195,3 +195,40 @@ footer p{
         font-size: 0.7rem;
     }
 }
+
+@media screen and (min-width: 427px) and (max-width: 769px)  {
+    .navbar{
+        padding: 2.4rem;
+        height: 6rem;
+    }
+
+    .navbar .links{
+        width: 20rem;
+    }
+
+    .navbar .links a{
+        font-size: 0.9rem;
+    }
+
+    .navbar .logo{
+        width: 4rem;
+        height: 3.5rem;
+    }
+
+    .map{
+        height: 45vh;
+    }
+
+    footer{
+        padding-block: 2.8rem;
+    }
+
+    footer .icon{
+        margin-inline: .8rem;
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 0.9rem;
+    }
+}
