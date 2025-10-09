@@ -7,6 +7,10 @@
     color : #fff;
 }
 
+body {
+    font-family: "Lato", sans-serif
+}
+
 .navbar {
     overflow: hidden;
     background-color: #000;
@@ -22,7 +26,7 @@
 
 .navbar .logo {
     width: 6rem;
-    height: 5rem;
+    height: 4.62rem;
 }
 
 .navbar .logo img{
