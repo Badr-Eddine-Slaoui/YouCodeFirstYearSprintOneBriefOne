@@ -121,3 +121,40 @@ footer p{
         font-size: 0.4rem;
     }
 }
+
+@media screen and (min-width: 321px) and (max-width: 376px)  {
+    .navbar{
+        padding: 2rem;
+        height: 4rem;
+    }
+
+    .navbar .links{
+        width: 12rem;
+    }
+
+    .navbar .links a{
+        font-size: 0.6rem;
+    }
+
+    .navbar .logo{
+        width: 2.5rem;
+        height: 2rem;
+    }
+
+    .map{
+        height: 35vh;
+    }
+
+    footer{
+        padding-block: 2rem;
+    }
+
+    footer .icon{
+        margin-inline: .6rem;
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 0.6rem;
+    }
+}

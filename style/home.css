@@ -41,3 +41,30 @@
         margin-top: 4rem;
     }
 }
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    .content{
+        margin-top: 4rem;
+    }
+    
+    .mySlides{
+        width: 100%;
+    }
+
+    .mySlides img{
+        width: 100%;
+    }
+
+    .mySlides .text{
+        margin-left: .7rem;
+    }
+
+    .mySlides .text h3{
+        margin-block: 0.7rem;
+        font-size: 0.6rem;
+    }
+
+    .mySlides .text p{
+        font-size: 0.6rem;
+    }
+}

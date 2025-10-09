@@ -125,3 +125,54 @@
     }
 }
 
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    #band{
+        margin-top: 4rem;
+    }
+
+    #band h2{
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    #band .about-container{
+        grid-template-rows: 35vh;
+        gap: 1.5rem;
+        margin: 1.5rem;
+        height: 35vh;
+    }
+
+    #band .about-container .about-text{
+        padding: 0.5rem;
+    }
+
+    #band .about-container .about-text p{
+        font-size: 0.4rem;
+    }
+
+    #band .about-container .about-text p:first-child{
+        margin-bottom: 1.2rem;
+    }
+    
+    #band .about-container .band-image img{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    #band .band-members{
+        height: 20vh;
+        gap: 2rem;
+        margin: 2rem 1rem;
+    }
+
+
+    #band .band-members .member img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #band .band-members .member p{
+        margin-block: 1rem;
+        font-size: 0.6rem;
+    }
+}
